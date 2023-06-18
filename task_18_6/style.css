@@ -1,0 +1,21 @@
+
+p {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+table, thead, tbody, th, tr, td {
+    border: 1px solid black;
+}
+
+th {
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}
+img {
+    width: 300px;
+    height: 200px;
+}

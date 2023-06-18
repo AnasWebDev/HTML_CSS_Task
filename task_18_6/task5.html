@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anas Yasien</title>
+    <style>
+        form {
+            padding: 15px;
+        }
+        div {
+            padding: 2px;
+        }
+        label {
+            width: 100px;
+            display: inline-block;
+        }
+        .textbox input {
+            width: 90px;
+        }
+    </style>
+  
+  </head>
+  <body>
+      <form>
+      <div>
+        <label class="test" for="name">Name:</label>
+        <input type="text" id="name" name="name" />
+      </div>
+      <div>
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" />
+      </div>
+      <div>
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city"/>
+      </div>
+      <div class="textbox">
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state" />
+      </div>
+      <div class="textbox">
+        <label for="zip">Zip</label>
+        <input type="text" id="zip" name="zip" />
+      </div>
+      <div class="textbox">
+        <label for="magazine">Magazine:</label>
+      <select name="magazine" id="magazine">
+        <option value="newsmonth">NewsMonth</option>
+        <option value="newsweek" aria-checked="true">NewsWeek</option>
+        <option value="newsday">NewsDay</option>
+      </select>
+      </div>
+        
+      <div>
+        <label>Subscription:</label>
+        <input type="radio" id="1year" name="subscription" checked>
+        <label for="1year">1 Year</label>
+        <input type="radio" id="2year" name="subscription">
+        <label for="2year">2 Year</label>
+      </div>
+    
+      <br>
+      <input type="submit" value="Send Your Order" />
+    </form>
+  </body>
+</html>
