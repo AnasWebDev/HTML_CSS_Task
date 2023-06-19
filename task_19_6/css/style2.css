@@ -15,3 +15,8 @@ h1 {
 p {
   padding: 5px 25px;
 }
+
+.suscipit {
+  border: 2px solid gray;
+  padding: 5px;
+}
