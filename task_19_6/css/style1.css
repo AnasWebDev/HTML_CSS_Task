@@ -1,0 +1,15 @@
+div {
+  margin: 30px;
+}
+.box1 {
+  color: rgb(233, 117, 75);
+}
+
+span {
+  font-weight: bold;
+}
+.box3 {
+  background-image: url(../img/light.jpg);
+  background-size: unset;
+  background-repeat: cover;
+}

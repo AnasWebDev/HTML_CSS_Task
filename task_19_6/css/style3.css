@@ -1,0 +1,27 @@
+.p1 {
+  color: blue;
+}
+
+.link1 {
+  color: orange;
+}
+
+#highlight {
+  color: red;
+  background-color: rgb(249, 249, 125);
+}
+
+.link2 {
+  color: red;
+}
+#bold {
+  font-weight: bold;
+}
+
+.numbers li {
+  color: blue;
+}
+
+.li_bold {
+  font-weight: bold;
+}

@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  /* padding: 15px; */
+}
+
+div {
+  padding: 15px;
+}
+.box1 {
+  border: 2px solid rgb(87, 87, 87);
+}
+
+.box2 {
+  border: 3px dashed rgb(87, 87, 87);
+}
+
+.box2 p {
+  border: 3px dashed rgb(187, 22, 22);
+  padding: 10px;
+}
+
+.box3 {
+  border: 2px solid rgb(87, 87, 87);
+  color: rgb(115, 27, 197);
+}
+
+span {
+  background-color: rgb(255, 154, 117);
+}
+
+.span2 {
+  background-color: yellow;
+}
