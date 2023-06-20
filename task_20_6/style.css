@@ -19,6 +19,10 @@ body {
   text-align: center;
 }
 
-.even :nth-child(2n of .even_num) {
+.even div:nth-child(even) {
   display: none;
 }
+
+/* .even :nth-child(2n of .even_num) {
+  display: none;
+} */
