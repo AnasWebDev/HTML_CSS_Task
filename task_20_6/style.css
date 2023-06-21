@@ -5,8 +5,15 @@
   color: white;
   font-size: 2.5em;
   padding: 25px;
-  width: 130px;
+  width: 140px;
   text-align: center;
+}
+
+.even_num {
+  border: 2px solid black;
+  width: 100%;
+  height: 100%;
+  padding: 25px;
 }
 
 .even_num:nth-child(even) {
