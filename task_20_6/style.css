@@ -1,21 +1,26 @@
-.even div {
-  display: inline-block;
-  border: 2px solid black;
-  background-color: red;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.even-number {
+  overflow: hidden;
+  background-color: #eee;
+  width: 1000px;
+  margin: 20px auto;
+}
+
+.even-number div {
+  border: 1px solid black;
+  background-color: #f00;
   color: white;
-  font-size: 2.5em;
-  padding: 25px;
-  width: 140px;
+  float: left;
+  width: 20%;
   text-align: center;
+  padding: 20px;
 }
 
-.even_num {
-  border: 2px solid black;
-  width: 100%;
-  height: 100%;
-  padding: 25px;
-}
-
-.even_num:nth-child(even) {
+.even:nth-child(even) {
   display: none;
 }
