@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 20px;
+  text-align: center;
+}
+
+.main {
+  margin: 25px auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main div {
+  color: white;
+  background-color: red;
+  border: 2px solid black;
+  width: calc(97.5% / 5);
+  line-height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main div:nth-child(even) {
+  display: none;
+}
